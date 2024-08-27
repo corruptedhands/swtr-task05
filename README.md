@@ -1,4 +1,4 @@
-# Swisstronik Tesnet Techinal Task 5 (Deploy Private NFT)
+# Swisstronik Testnet Technical Task 5 (Deploy Private NFT)
 
 link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
 
@@ -17,6 +17,7 @@ EVM :
 ```bash
 git clone https://github.com/Mnuralim/swisstronik-deploy-private-nft.git
 ```
+
 ```bash
 cd swisstronik-deploy-private-nft
 ```
@@ -36,6 +37,7 @@ touch .env
 ```
 
 add this to your .env file
+
 ```bash
 PRIVATE_KEY="your private key"
 ```
@@ -108,20 +110,25 @@ npm run mint
 - Open the deployed-adddress.ts (location in utils folder)
 - Copy the address and paste the address into testnet dashboard
 - push this project to your github and paste your repository link in testnet dashboard
-  
- #how to push ? 
+
+#how to push ?
+
 ```bash
 git init
 ```
+
 ```bash
 git add .
 ```
+
 ```bash
 git remote set-url origin your_repo_link
 ```
+
 ```bash
 git branch -M main
 ```
+
 ```bash
 git push -u origin main
 ```
